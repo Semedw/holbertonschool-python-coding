@@ -44,6 +44,7 @@ class Square:
         Printing the area of the square
         """
         if size>0:
-            print(f"#{self.__size**2}")
+            for i in range(size):
+                print("#"*size)
         else:
             print()
