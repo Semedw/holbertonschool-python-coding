@@ -13,5 +13,5 @@ class Square:
         """
         This function is initialized when an object is created
         """
-        self__size = size
+        self.__size = size
 
