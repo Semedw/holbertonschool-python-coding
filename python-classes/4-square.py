@@ -43,8 +43,8 @@ class Square:
         """
         Printing the area of the square
         """
-        if size>0:
-            for i in range(size):
-                print("#"*size)
+        if self.__size>0:
+            for i in range(self.__size):
+                print("#"*self.__size)
         else:
             print()
