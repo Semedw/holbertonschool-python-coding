@@ -13,7 +13,7 @@ class Square:
         This method run when an object is initialized
         """
         self.__size = size
-        if !isinstance(self.__size, int):
+        if not isinstance(self.__size, int):
             raise TypeError('size must be an integer')
         if self.__size < 0:
             raise ValueError('size must be >= 0')
