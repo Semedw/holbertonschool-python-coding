@@ -8,7 +8,7 @@ class Square:
     """
     This class create a square object
     """
-    def __init(self, size = 0):
+    def __init__(self, size = 0):
         """
         This method run when an object is initialized
         """
