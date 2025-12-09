@@ -38,12 +38,12 @@ class Square:
             raise ValueError('size must be >= 0')
         else:
             self.__size = value
-    
+
     def my_print(self):
         """
         Printing the area of the square
         """
-        if self.__size>0:
+        if self.__size > 0:
             for i in range(self.__size):
                 print("#"*self.__size)
         else:
